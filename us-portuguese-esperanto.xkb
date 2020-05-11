@@ -1,0 +1,47 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Generated keyboard layout file with the Keyboard Layout Editor.
+// For more about the software, see http://code.google.com/p/keyboardlayouteditor
+//
+
+// 1. maybe chown root:root upe
+// 2. copy to /usr/share/X11/xkb/symbols
+// 3. edit /usr/share/X11/xkb/rules/evdev.xml to add:
+// <layout>
+//   <configItem>
+//     <name>upe</name>
+//     <shortDescription>upe</shortDescription>
+//     <description>US, PT, EO</description>
+//     <languageList>
+//       <iso639Id>eng</iso639Id>
+//       <iso639Id>por</iso639Id>
+//       <iso639Id>epo</iso639Id>
+//     </languageList>
+//   </configItem>
+//   <variantList>
+//   </variantList>
+// </layout>
+
+default partial alphanumeric_keys
+xkb_symbols "basic"
+{
+	name[Group1] = "upe";
+	include "us(basic)"
+	key <AB03> { [       NoSymbol,       NoSymbol,    ccircumflex,    Ccircumflex ] }; //   ĉ Ĉ 
+	key <AC02> { [       NoSymbol,       NoSymbol,    scircumflex,    Scircumflex ] }; //   ŝ Ŝ 
+	key <AC05> { [       NoSymbol,       NoSymbol,    gcircumflex,    Gcircumflex ] }; //   ĝ Ĝ 
+	key <AC06> { [       NoSymbol,       NoSymbol,    hcircumflex,    Hcircumflex ] }; //   ĥ Ĥ 
+	key <AC07> { [       NoSymbol,       NoSymbol,    jcircumflex,    Jcircumflex ] }; //   ĵ Ĵ 
+	key <AC10> { [       NoSymbol,       NoSymbol,       ccedilla,       Ccedilla ] }; //   ç Ç 
+	key <AC11> { [       NoSymbol,       NoSymbol,      masculine,    ordfeminine ] }; //   º ª 
+	key <AD03> { [       NoSymbol,       NoSymbol,       EuroSign                 ] }; //   € 
+	key <AD07> { [       NoSymbol,       NoSymbol,         ubreve,         Ubreve ] }; //   ŭ  
+	key <AD12> { [       NoSymbol,       NoSymbol,     dead_acute,     dead_grave ] }; //   D´ D` 
+	key <AE02> { [       NoSymbol,       NoSymbol,             at                 ] }; //   @ 
+	key <AE03> { [       NoSymbol,       NoSymbol,          UFFE1                 ] }; //   ￡ 
+	key <AE12> { [       NoSymbol,       NoSymbol, Armenian_guillemotleft, Armenian_guillemotright ] }; //   « » 
+	key <BKSL> { [       NoSymbol,       NoSymbol,     dead_tilde, dead_circumflex ] }; //   D~ D^ 
+
+        include "level3(ralt_switch)"
+};
+
