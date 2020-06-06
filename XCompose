@@ -21,23 +21,23 @@
 <Multi_key> <h> <w> : "Hello, world!"
 # <Multi_key> <t> <f> : "(ﾉಥ益ಥ）ﾉ彡┻━┻"  # Table flip like a boss
 <Multi_key> <l> <f> : "( ͡° ͜ʖ ͡°)"        # Lenny face
-<Multi_key> <s> <f> : "¯\\_(ツ)_/¯"     # Shrug face
+<Multi_key> <f> <f> : "¯\\_(ツ)_/¯"     # Shrug face
 
 # Esperanto
 
-<Multi_key> <h> <x> : "ĥ"
-<Multi_key> <s> <x> : "ŝ"
-<Multi_key> <g> <x> : "ĝ"
-<Multi_key> <c> <x> : "ĉ"
-<Multi_key> <j> <x> : "ĵ"
-<Multi_key> <u> <x> : "ŭ"
+<Multi_key> <h> : "ĥ"
+<Multi_key> <s> : "ŝ"
+<Multi_key> <g> : "ĝ"
+<Multi_key> <c> : "ĉ"
+<Multi_key> <j> : "ĵ"
+<Multi_key> <u> : "ŭ"
 
-<Multi_key> <H> <X> : "Ĥ"
-<Multi_key> <S> <X> : "Ŝ"
-<Multi_key> <G> <X> : "Ĝ"
-<Multi_key> <C> <X> : "Ĉ"
-<Multi_key> <J> <X> : "Ĵ"
-<Multi_key> <U> <X> : "Ŭ"
+<Multi_key> <H> : "Ĥ"
+<Multi_key> <S> : "Ŝ"
+<Multi_key> <G> : "Ĝ"
+<Multi_key> <C> : "Ĉ"
+<Multi_key> <J> : "Ĵ"
+<Multi_key> <U> : "Ŭ"
 
 # Portuguese
 
@@ -91,4 +91,4 @@
 <Multi_key> <f> <Left>  : "👈"
 <Multi_key> <f> <Right> : "👉"
 <Multi_key> <f> <Down>  : "👇"
-<Multi_key> <f> <Up>    : "☝"
+<Multi_key> <f> <Up>    : "👆"
