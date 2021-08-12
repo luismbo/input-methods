@@ -23,6 +23,10 @@
 <Multi_key> <l> <f> : "( ͡° ͜ʖ ͡°)"        # Lenny face
 <Multi_key> <f> <f> : "¯\\_(ツ)_/¯"     # Shrug face
 
+# Euro
+
+<Multi_key> <e> : "€"
+
 # Esperanto
 
 <Multi_key> <h> : "ĥ"
@@ -79,16 +83,82 @@
 <Multi_key> <}> <O> : "Ò"
 <Multi_key> <}> <U> : "Ù"
 
-# key emojis
+<Multi_key> <[> <a> : "ä"
+<Multi_key> <[> <e> : "ë"
+<Multi_key> <[> <i> : "ï"
+<Multi_key> <[> <o> : "ö"
+<Multi_key> <[> <u> : "ü"
+<Multi_key> <[> <A> : "Ä"
+<Multi_key> <[> <E> : "Ë"
+<Multi_key> <[> <I> : "Ï"
+<Multi_key> <[> <O> : "Ö"
+<Multi_key> <[> <U> : "Ü"
 
-<Multi_key> </> <;> <1> : "👍"
-<Multi_key> </> <;> <2> : "👎"
-<Multi_key> </> <;> <3> : "😀"
-<Multi_key> </> <;> <4> : "😢"
-<Multi_key> </> <;> <5> : "🎉"
-<Multi_key> </> <;> <6> : "🤦‍♂️"
+<Multi_key> <'> : "º"
+<Multi_key> <"> : "ª"
 
-<Multi_key> <f> <Left>  : "👈"
-<Multi_key> <f> <Right> : "👉"
-<Multi_key> <f> <Down>  : "👇"
-<Multi_key> <f> <Up>    : "👆"
+<Multi_key> <=> : "«"
+<Multi_key> <+> : "»"
+
+<Multi_key> <3> : "£"
+<Multi_key> <4> : "§"
+
+# pinyin
+# āáǎà ēéěè īíǐì ōóǒò ūúǔù ǖǘǚǜ
+# ĀÁǍÀ ĒÉĚÈ ĪÍǏÌ ŌÓǑÒ ŪÚǓÙ ǕǗǙǛ
+
+# pinyin macron
+<Multi_key> <@> <a> : "ā"
+<Multi_key> <@> <e> : "ē"
+<Multi_key> <@> <i> : "ī"
+<Multi_key> <@> <o> : "ō"
+<Multi_key> <@> <u> : "ū"
+<Multi_key> <@> <A> : "Ā"
+<Multi_key> <@> <E> : "Ē"
+<Multi_key> <@> <I> : "Ī"
+<Multi_key> <@> <O> : "Ō"
+<Multi_key> <@> <U> : "Ū"
+
+# pinyin caron
+<Multi_key> <#> <a> : "ǎ"
+<Multi_key> <#> <e> : "ě"
+<Multi_key> <#> <i> : "ǐ"
+<Multi_key> <#> <o> : "ǒ"
+<Multi_key> <#> <u> : "ǔ"
+<Multi_key> <#> <A> : "Ǎ"
+<Multi_key> <#> <E> : "Ě"
+<Multi_key> <#> <I> : "Ǐ"
+<Multi_key> <#> <O> : "Ǒ"
+<Multi_key> <#> <U> : "Ǔ"
+
+# pinyin ǖǘǚǜ ǕǗǙǛ
+
+<Multi_key> <@> <y> : "ǖ"
+<Multi_key> <@> <Y> : "Ǖ"
+<Multi_key> <#> <y> : "ǚ"
+<Multi_key> <#> <Y> : "Ǚ"
+<Multi_key> <]> <y> : "ǘ"
+<Multi_key> <]> <Y> : "Ǘ"
+<Multi_key> <}> <y> : "ǜ"
+<Multi_key> <}> <Y> : "Ǜ"
+
+# useful symbols
+
+<Multi_key> <o> : "°"
+<Multi_key> <?> : "–"
+<Multi_key> </> : "—"
+
+# emojis
+
+<Multi_key> <Q> <1> : "👍"
+<Multi_key> <Q> <2> : "👎"
+<Multi_key> <Q> <3> : "😀"
+<Multi_key> <Q> <4> : "😢"
+<Multi_key> <Q> <5> : "🎉"
+<Multi_key> <Q> <6> : "🤦‍♂️"
+<Multi_key> <Q> <7> : "🙃"
+
+<Multi_key> <Q> <Left>  : "👈"
+<Multi_key> <Q> <Right> : "👉"
+<Multi_key> <Q> <Down>  : "👇"
+<Multi_key> <Q> <Up>    : "👆"
