@@ -145,6 +145,7 @@
 # useful symbols
 
 <Multi_key> <o> : "°"
+<Multi_key> <b> : "℃"
 <Multi_key> <?> : "–"
 <Multi_key> </> : "—"
 
