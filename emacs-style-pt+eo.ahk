@@ -57,9 +57,11 @@ prefixMaybe(ByRef map) {
 
 dontPrefix() {
         WinGetClass, class, A
-        if (class = "Emacs") {
+        ; MsgBox, 64, Display, % class
+	WinGet, exe, ProcessName, A
+        if (class = "Emacs" or exe = "PowerToys.MouseWithoutBordersHelper.exe") {
                 return 1
-        } else { 
+        } else {
                 return 0
         }
 }
