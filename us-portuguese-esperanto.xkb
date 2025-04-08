@@ -47,7 +47,7 @@ xkb_symbols "basic"
   key <AE04> { [ NoSymbol, NoSymbol,        section,      dead_breve ] }; // § ˘
   key <AE12> { [ NoSymbol, NoSymbol,  guillemotleft,  guillemotright ] }; // « »
   key <BKSL> { [ NoSymbol, NoSymbol,     dead_tilde, dead_circumflex ] }; // ~ ^
-  key <SPCE> { [ NoSymbol, NoSymbol,   nobreakspace                  ] };
+  key <SPCE> { [    space,    space,   nobreakspace                  ] };
 
   key <KP1> { [ NoSymbol, NoSymbol, U1F44E         ] }; // 👎
   key <KP2> { [ NoSymbol, NoSymbol, U1F447         ] }; // 👇
