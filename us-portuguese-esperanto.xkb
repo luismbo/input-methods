@@ -17,6 +17,10 @@
 //   <variantList>
 //   </variantList>
 // </layout>
+//
+// NB: Wayland (or Debian? or KDE? or libxkbcommon?) doesn't seem
+// to pick this evdev.xml update so I just replace an existing layout.
+// (e.g.: /usr/share/X11/xkb/symbols/eu)
 
 // see symbol names in /usr/include/X11/keysymdef.h
 
